@@ -1,0 +1,111 @@
+---
+title: "Export from Spotify JSON"
+author: "Fiona MacNeill"
+date: "01/02/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About this tutorial
+
+This file is in RMarkdown to allow you to run each section of the code and see the results. The demo data file is called Playlist1.json and is available on [GitHub](https://github.com/FionaMacNeill/PlaylistExport/blob/blob/main/Playlist1.json). **For the best results** put this into a new folder called 'MyData' on your desktop. This will be close to the experience of working with your own data export from Spotify.
+
+### Getting your data
+
+To get your JSON data from Spotify you need to go to your Account page > Privacy settings > Download your data. Once you have requested your data it takes a few days for Spotify to email a download link to you. When you use the link you will be prompted to login to your account. The export file will be provided as a zip file. 
+
+This tutorial is based on downloading the zip file to your Desktop and then unzipping it. The file will be called MyData and the file will be called Playlist1.json. Interesting this file actually contains many playlists. I have included 3 playlists in my example data.
+
+I am using the rjson by Alex Couture-Bell and Tidyverse packages by Hadley Wickham and RStudio for this tutorial.
+
+## Prepare your workspace
+Load the packages and libraries that you need.
+
+```{r setting up workspace}
+
+# Set working directory based on where you unzipped your data download
+setwd("~/Desktop/MyData/")
+
+# Install the packages that you need
+install.packages("rjson")
+install.packages("tidyverse")
+
+# Load the libraries from the packages that you need
+library(rjson)
+library(purrr)
+library(dplyr)
+library(tidyr)
+
+```
+
+## Import Data
+
+First we need to import the data from the JSON file and figure out how many playlists we have.
+
+```{r import data}
+
+# Assign a name to our JSON playlist data which will be a 'list' once parsed
+playlists <- fromJSON(file = "Playlist1.json")
+
+# Find out how many playlists you have - result will be shown below
+length(playlists$playlists)
+
+```
+
+## Exporting each playlist
+
+I have 3 playlists in demo data, the code chunks below are setup for the first playlist. You can re-run chunks 4, 5, and 6 to export each playlist to .csv (comma separated values for use in Microsoft Excel, Google Sheets, or Numbers).
+
+On each re-run: 
+- change the number in 'map()' in chunk 4 (immediately below).
+- change the name of the csv file in chunk 6 (so that you don't overwrite a previous export).
+
+### Step 1 - Cleaning up the information from the JSON file
+
+The data in JSON file is nested. Step 1 is to pull out, or unnest, the playlists within the JSON file. We are also creating a Tibble to contain the data from one playlist ('playlistExport') so that it is easier to work in Step 2.
+
+```{r Step 1 - unnesting the data in the JSON file}
+
+# Starting with the first playlist listed using 'map(1)'
+
+playlistExport <- playlists %>%
+  map(1) %>% # change the number in map() for each playlist (e.g., 1 to 3) 
+  bind_rows(.id = "playlists") %>%
+  unnest(cols = playlists)
+
+playlistExport
+
+```
+
+### Step 2 - Clearning up the information in the 'items' column
+
+The field above entitled 'items' is the one with the important information that we need. So, there is a second step to unnest that level.
+
+```{r Step 2 - unnesting the information in the items column}
+
+# Unnesting the data that I am actually interesting in the items column
+
+playlistExport <- playlistExport$items %>%
+  map(1) %>% # Do not change this number
+  bind_rows(.id = "items") %>%
+  unnest(cols = items)
+
+playlistExport
+
+```
+
+### Step 3 - export the playlist information
+
+Exporting the first playlist to csv for MS Excel, Google Sheets, or Numbers.
+
+```{r export to csv}
+
+write.csv(playlistExport, file = "playlist1.csv") 
+# remember to update the csv title for each playlist you export
+
+```
+
+Repeat the process for each of your playlists as outlined in the 'exporting each playlist' section.
