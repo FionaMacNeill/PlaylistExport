@@ -5,7 +5,7 @@ If you do not have RStudio installed and would like to give it try follow the in
 
 ## About this tutorial
 
-I have provided an accompanying file in RMarkdown (.Rmd) format to allow you download and to run each section of the code in RStudio on your own computer and see the results. The demo data file is called [Playlist1](../blob/main/Playlist1.json]. **For the best results** put this into a new folder called MyData on your desktop. This will be close to the experience of working with your own data export from Spotify. 
+I have provided an accompanying file in RMarkdown (.Rmd) format to allow you download and to run each section of the code in RStudio on your own computer and see the results. The demo data file is called [Playlist1.json](../blob/main/Playlist1.json). **For the best results** put this into a new folder called MyData on your desktop. This will be close to the experience of working with your own data export from Spotify. 
 
 ### Getting your data
 
@@ -13,7 +13,7 @@ To get your JSON data from Spotify you need to go to your [Account page > Privac
 
 This tutorial is based on downloading the zip file to your Desktop and then unzipping it. The file will be called 'MyData' and the file will be called 'Playlist1.json' Interesting this file actually contains many playlists. I have included 3 playlists in my example data.
 
-I am using the rjson by [Alex Couture-Bell](https://github.com/alexcb/rjson) and [Tidyverse packages](https://www.tidyverse.org/packages/) by Hadley Wickham and RStudio for this tutorial.
+I am using the [rjson](https://github.com/alexcb/rjson) by Alex Couture-Bell and [Tidyverse packages](https://www.tidyverse.org/packages/) by Hadley Wickham and RStudio for this tutorial.
 
 
 ## Prepare your workspace
