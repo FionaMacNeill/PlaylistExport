@@ -5,7 +5,7 @@ If you do not have RStudio installed and would like to give it try follow the in
 
 ## About this tutorial
 
-I have provided an accompanying file in [RMarkdown (.Rmd) format](../blob/main/ExportFromSpotify.Rmd) to allow you download and to run each section of the code in RStudio on your own computer and see the results. The demo data file is called [Playlist1.json](../blob/main/Playlist1.json). **For the best results** put this into a new folder called MyData on your desktop. This will be close to the experience of working with your own data export from Spotify. 
+I have provided an accompanying file in [RMarkdown (.Rmd) format](../main/ExportFromSpotify.Rmd) to allow you download and to run each section of the code in RStudio on your own computer and see the results. The demo data file is called [Playlist1.json](../main/Playlist1.json). **For the best results** put this into a new folder called MyData on your desktop. This will be close to the experience of working with your own data export from Spotify. 
 
 ### Getting your data
 
