@@ -21,8 +21,8 @@ I am using the rjson by [Alex Couture-Bell](https://github.com/alexcb/rjson) and
 Load the packages and libraries that you need.
 
 ```{r setting up workspace}
-# Set working directory based on where you unzipped your data download
-setwd("~/Desktop/MyData/")
+# Set working directory based on where you unzipped your data download - remove the # to make this active in your code
+# setwd("~/Desktop/MyData/")
 
 # Install the packages that you need
 install.packages("rjson")
