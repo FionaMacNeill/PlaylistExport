@@ -1,0 +1,268 @@
+{
+  "playlists": [
+    {
+    "name": "weight training",
+      "lastModifiedDate": "2020-06-28",
+      "items": [
+        {
+          "track": {
+            "trackName": "Still D.R.E. (Tabata)",
+            "artistName": "Tabata Songs",
+            "albumName": "Still D.R.E. (Tabata)",
+            "trackUri": "spotify:track:0fwBH3x8XaD5ZIoO9tI2lb"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Enter Sandman (Tabata)",
+            "artistName": "Tabata Songs",
+            "albumName": "Enter Sandman (Tabata)",
+            "trackUri": "spotify:track:20YQ4gO1pbXo5KM3JQDDIy"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Dark Symphony (Tabata)",
+            "artistName": "Tabata Songs",
+            "albumName": "Dark Symphony (Tabata)",
+            "trackUri": "spotify:track:48c3bLsfU9IZFL9WyHJ9tk"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Hey Ya! (Tabata)",
+            "artistName": "Tabata Songs",
+            "albumName": "Hey Ya! (Tabata)",
+            "trackUri": "spotify:track:1sH6FQNdPfd7573Y50RyxH"
+          },
+          "episode": null,
+          "localTrack": null
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 1
+    },
+    {
+      "name": "sleep",
+      "lastModifiedDate": "2019-08-11",
+      "items": [
+        {
+          "track": {
+            "trackName": "2049",
+            "artistName": "Hans Zimmer",
+            "albumName": "Blade Runner 2049 (Original Motion Picture Soundtrack)",
+            "trackUri": "spotify:track:0UWa0AdUscdQUI7mjjx6G1"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Rain",
+            "artistName": "Hans Zimmer",
+            "albumName": "Blade Runner 2049 (Original Motion Picture Soundtrack)",
+            "trackUri": "spotify:track:5bKP0HAlVAzKVqBR3ZjFE6"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Tears in the Rain",
+            "artistName": "Hans Zimmer",
+            "albumName": "Blade Runner 2049 (Original Motion Picture Soundtrack)",
+            "trackUri": "spotify:track:6bHjk4FudnJpUEz1PGs1YS"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Night After Sidewalk",
+            "artistName": "Kaki King",
+            "albumName": "Everybody Loves You",
+            "trackUri": "spotify:track:0JUa8PNsS6fvWz2Keb5KLq"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "The Imitation Game",
+            "artistName": "Alexandre Desplat",
+            "albumName": "The Imitation Game (Original Motion Picture Soundtrack)",
+            "trackUri": "spotify:track:0o9ivTBX7mjTnaUYF4Gk6t"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Memory",
+            "artistName": "Hans Zimmer",
+            "albumName": "Blade Runner 2049 (Original Motion Picture Soundtrack)",
+            "trackUri": "spotify:track:6A3zufbiW5K2FirvFNxgs3"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Tears in Rain",
+            "artistName": "Vangelis",
+            "albumName": "Blade Runner (Music From The Original Soundtrack)",
+            "trackUri": "spotify:track:2LxEIWrZkzfc55c3rk05DH"
+          },
+          "episode": null,
+          "localTrack": null
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    },
+    {
+      "name": "Baker Street",
+      "lastModifiedDate": "2019-10-14",
+      "items": [
+        {
+          "track": {
+            "trackName": "House In LA",
+            "artistName": "Jungle",
+            "albumName": "House In LA",
+            "trackUri": "spotify:track:0JWPb1QZnJO9WzTSgCX02j"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Baker Street",
+            "artistName": "Gerry Rafferty",
+            "albumName": "City to City",
+            "trackUri": "spotify:track:3V07f70cRjUDg4KqDzHhFg"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Midnight City",
+            "artistName": "M83",
+            "albumName": "Hurry up, We're Dreaming",
+            "trackUri": "spotify:track:6GyFP1nfCDB8lbD2bG0Hq9"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Space Oddity - 2015 Remaster",
+            "artistName": "David Bowie",
+            "albumName": "David Bowie (aka Space Oddity)",
+            "trackUri": "spotify:track:72Z17vmmeQKAg8bptWvpVG"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Don't Bring Me Down",
+            "artistName": "Electric Light Orchestra",
+            "albumName": "Discovery",
+            "trackUri": "spotify:track:72ahyckBJfTigJCFCviVN7"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Englishman In New York",
+            "artistName": "Sting",
+            "albumName": "Nothing Like The Sun",
+            "trackUri": "spotify:track:0k9un4VZY52tvtxNhg6XLo"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Wichita Lineman - Remastered 2001",
+            "artistName": "Glen Campbell",
+            "albumName": "Wichita Lineman",
+            "trackUri": "spotify:track:6V9VCm1zOY2lGR80RehJ9i"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Fanfare for the Common Man - Single Edit",
+            "artistName": "Emerson, Lake & Palmer",
+            "albumName": "The Best of Emerson Lake & Palmer",
+            "trackUri": "spotify:track:0dkL8m14x0wecbq04QfBKs"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Publiphobie",
+            "artistName": "Carpe Diem",
+            "albumName": "En Regardant Passer Le Temps",
+            "trackUri": "spotify:track:5bdxnqGx8kYHk7UksDmLXb"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Vivaldi",
+            "artistName": "Curved Air",
+            "albumName": "Air Conditioning",
+            "trackUri": "spotify:track:3I1wOoU3eabRawc2OFGRDb"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Hocus Pocus - Extended Version",
+            "artistName": "Focus",
+            "albumName": "Moving Waves",
+            "trackUri": "spotify:track:6iZtDWu3FTuxu7AprIqA3Y"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "In The Land Of Grey & Pink",
+            "artistName": "Caravan",
+            "albumName": "In The Land Of Grey And Pink",
+            "trackUri": "spotify:track:4Z335bGhpA68s6sq40UDfe"
+          },
+          "episode": null,
+          "localTrack": null
+        },
+        {
+          "track": {
+            "trackName": "Algorithm",
+            "artistName": "Muse",
+            "albumName": "Simulation Theory",
+            "trackUri": "spotify:track:7f0vVL3xi4i78Rv5Ptn2s1"
+          },
+          "episode": null,
+          "localTrack": null
+        }
+      ],
+      "description": null,
+      "numberOfFollowers": 0
+    }
+  ]
+}
