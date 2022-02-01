@@ -5,7 +5,7 @@ If you do not have RStudio installed and would like to give it try follow the in
 
 ## About this tutorial
 
-I have provided an accompanying file in RMarkdown (.Rmd) format to allow you download and to run each section of the code in RStudio on your own computer and see the results. 
+I have provided an accompanying file in RMarkdown (.Rmd) format to allow you download and to run each section of the code in RStudio on your own computer and see the results. The demo data file is called Playlist1.json. **For the best results** put this into a new folder called MyData on your desktop. This will be close to the experience of working with your own data export from Spotify. 
 
 ### Getting your data
 
@@ -21,8 +21,8 @@ I am using the rjson by [Alex Couture-Bell](https://github.com/alexcb/rjson) and
 Load the packages and libraries that you need.
 
 ```{r setting up workspace}
-# Set working directory based on where you unzipped your data download - remove the # to make this active in your code
-# setwd("~/Desktop/MyData/")
+# Set working directory based on where you unzipped your data download
+setwd("~/Desktop/MyData/")
 
 # Install the packages that you need
 install.packages("rjson")
